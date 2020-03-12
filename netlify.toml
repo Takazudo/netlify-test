@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/dir/dir/dir/font.woff"
+  to = "/font.woff"
+  status = 301
