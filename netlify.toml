@@ -2,3 +2,4 @@
   from = "/dir/dir/dir/font.woff"
   to = "/font.woff"
   status = 301
+  headers = { content-type = "application/font-woff" }
