@@ -2,33 +2,11 @@
 <head>
   <meta charset="utf-8">
   <title>JS and CSS preload example</title>
-  <link rel="preload" href="font.woff" as="font" type="font/woff2" crossorigin="anonymous">
-  <style>
-    @font-face {
-      font-family: myFirstFont;
-      src: url(dir/dir/dir/font.woff);
-      /*src: url(font.woff);*/
-    }
-    @font-face {
-      font-family: mySecondFont;
-      src: url(font2.woff);
-    }
-    body {
-      padding: 20px;
-      font-size: 1.5em;
-
-    }
-    .text1 {
-      font-family: myFirstFont;
-    }
-    .text2 {
-      font-family: mySecondFont;
-    }
-  </style>
+  <link rel="preload" href="dir/dir/dir/font.woff" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles2.css">
 </head>
 <body>
 <p class="text1">preload test</p>
-<p class="text2">preload test</p>
 <ul>
   <li><a href="index.html">index</a></li>
   <li><a href="2.html">2</a></li>
